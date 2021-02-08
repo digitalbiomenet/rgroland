@@ -1,0 +1,127 @@
+html
+{
+    background-color: #343233;
+    color: #efdab9;
+    font-weight: 200;
+    font-family: 'Mulish', sans-serif;
+    width: 100%;
+}
+
+body
+{
+    margin: auto;
+    max-width: 1500px;
+}
+
+.site-container
+{
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.desc
+{
+    font-size: 18px;
+    padding: 15px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-weight: 600;
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+.responsive
+{
+    padding: 0 6px;
+    float: left;
+    width: 33.3333%;
+}
+@media only screen and (max-width: 800px)
+{
+  .responsive
+  {
+    width: 100%;
+  }
+}
+
+.clearfix:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.links a
+{
+    font-size: 18px;
+    color: #efdab9;
+}
+.links a:hover
+{
+    font-style: italic;
+}
+
+.work-entry
+{
+    text-align: left;
+    margin-bottom: 50px;
+}
+.work-entry h1, h2, h3
+{
+    line-height: 1;
+}
+.work-entry h2, h3
+{
+    font-style: italic;
+}
+
+.cert-entry
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.cert-entry h1, h2, h3
+{
+    line-height: 1;
+}
+.cert-entry h2
+{
+    font-style: italic;
+}
+.cert-entry a
+{
+    font-style: normal;
+    color: #efdab9;
+}
+  
+.cert-detail
+{
+    margin-bottom: 50px;
+}
+.cert-detail h1, .cert-detail h2, .cert-detail h3
+{
+    text-align: left;
+    line-height: 1;
+}
+.cert-detail h2
+{
+    font-style: italic;
+}
+.cert-detail a
+{
+    font-style: normal;
+    color: #efdab9;
+}
+.cert-detail ul
+{
+    text-align: left;
+}
+.cert-detail img
+{
+    text-align: center;
+    max-width: 500px;
+}
