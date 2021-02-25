@@ -1,7 +1,7 @@
 html
 {
-    background-color: #343233;
-    color: #efdab9;
+    background-color: #212d3a;
+    color: #ffffff;
     font-weight: 200;
     font-family: 'Mulish', sans-serif;
     width: 100%;
@@ -58,11 +58,18 @@ body
 .links a
 {
     font-size: 18px;
-    color: #efdab9;
+    color: #f1304d;
+    font-weight: 800;
+    padding: 6px;
+    border-radius: 10px;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 2px;
 }
 .links a:hover
 {
-    font-style: italic;
+    color: #ffffff;
+    background-color: #f1304d;
 }
 
 .work-entry
@@ -95,7 +102,7 @@ body
 .cert-entry a
 {
     font-style: normal;
-    color: #efdab9;
+    color: #f1304d;
 }
   
 .cert-detail
@@ -114,7 +121,7 @@ body
 .cert-detail a
 {
     font-style: normal;
-    color: #efdab9;
+    color: #f1304d;
 }
 .cert-detail ul
 {
